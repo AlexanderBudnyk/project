@@ -79,11 +79,11 @@
 
 // alert(`Привет, ${user}`);
 
-console.log('arr' + " - object");
-console.log(4 + +"5");
+// console.log('arr' + " - object");
+// console.log(4 + +"5");
 
-let incr = 10,
-    decr = 10;
+// let incr = 10,
+//     decr = 10;
 
 // incr++;
 // decr--;
@@ -93,13 +93,13 @@ let incr = 10,
 // console.log(incr++);
 // console.log(decr--);
 
-console.log(++incr);
-console.log(--decr);
+// console.log(++incr);
+// console.log(--decr);
 
-console.log(5%2);
+// console.log(5%2);
 
 // console.log(2*4 == '8');
-console.log(2*4 === 8);
+// console.log(2*4 === 8);
 
 // &&
 // ||
@@ -119,13 +119,18 @@ console.log(2*4 === 8);
 
 // console.log(isChecked || isClose);
 
-const isChecked = false,
-    isClose = false;
+// const isChecked = false,
+//     isClose = false;
 
-console.log(isChecked || !isClose);
+// console.log(isChecked || !isClose);
 
-console.log(2 + 2 * 2 === 8);
+// console.log(2 + 2 * 2 === 8);
 
-console.log(2 + 2 * 2 != 8);
-console.log(2 + 2 * 2 != '6');
-console.log(2 + 2 * 2 !== '6');
+// console.log(2 + 2 * 2 != 8);
+// console.log(2 + 2 * 2 != '6');
+// console.log(2 + 2 * 2 !== '6');
+
+let numberOfFilms = +prompt("Сколько фильмов Вы уже посмотрели?", "");
+
+// console.log(numberOfFilms);
+
