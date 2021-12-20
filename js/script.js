@@ -134,3 +134,12 @@ let numberOfFilms = +prompt("Сколько фильмов Вы уже посм�
 
 // console.log(numberOfFilms);
 
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
+
+console.log(typeof(personalMovieDB.movies));
