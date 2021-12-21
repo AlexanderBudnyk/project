@@ -130,7 +130,7 @@
 // console.log(2 + 2 * 2 != '6');
 // console.log(2 + 2 * 2 !== '6');
 
-let numberOfFilms = +prompt("Сколько фильмов Вы уже посмотрели?", "");
+const numberOfFilms = +prompt("Сколько фильмов Вы уже посмотрели?", "");
 
 // console.log(numberOfFilms);
 
@@ -143,3 +143,15 @@ const personalMovieDB = {
 };
 
 console.log(typeof(personalMovieDB.movies));
+console.log(typeof(personalMovieDB.actors));
+console.log(typeof(personalMovieDB.genres));
+console.log(typeof(personalMovieDB.privat));
+
+const a = prompt('Один из последних просмотренных фильмов?', ''),
+    b = +prompt('На сколько оцените его?', ''),
+    c = prompt('Один из последних просмотренных фильмов?', ''),
+    d = +prompt('На сколько оцените его?', '');
+
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
+console.log(personalMovieDB);
